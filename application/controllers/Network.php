@@ -14,17 +14,16 @@ class Network extends MY_Controller {
         $this->load->model("school_model");
         $this->load->model("student_model");
 
-        $networks = $this->network_model->get_all_network();
-        $new_networks = [] ; 
+        $origin_networks = $this->network_model->get_all_network();
+        $networks = [] ; 
 
-        foreach( $networks as $network){
+        foreach($origin_networks as $network){
             $network->num_school = count($this->network_model->get_school_by_network_id($network->network_id));
             $network->num_student = $this->network_model->get_num_student_by_network_id($network->network_id) ;
-            array_push($new_networks, $network);
+            array_push($networks, $network);
         }
 
-        $data["networks"] = $new_networks;
-
+        $data["networks"] = $networks;
 
         $all_schools = $this->school_model->get_all_school(); 
         $data["num_all_school"] = count($all_schools); 
@@ -32,6 +31,8 @@ class Network extends MY_Controller {
 
         $this->view("index", $data);
     }
+    
+    
 
     public function showNetworkView($network_id) {
         $this->load->model("network_model");
