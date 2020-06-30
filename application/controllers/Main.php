@@ -17,7 +17,6 @@ class Main extends MY_Controller {
         $data["school_number"]  = count($this->school_model->get_all_school());
         $data["network_number"] = count($this->network_model->get_all_network());
         $data["num_personel"]   = $this->personel_model->get_num_personel_all_school();
-        
 
         $this->view("index", $data);
     }

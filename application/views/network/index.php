@@ -1,4 +1,3 @@
-<!-- Small boxes (Stat box) -->
 <div>
     <div style="margin:10px 0 0 10px;text-align:center">
         <h3>เครือข่ายโรงเรียน</h3>
