@@ -1,10 +1,12 @@
 <!-- Small boxes (Stat box) -->
-<div class="row">
-    
-
-    <div style="margin:10px 0 0 10px;">
-        <h2>เครือข่ายโรงเรียน</h2>
+<div>
+    <div style="margin:10px 0 0 10px;text-align:center">
+        <h3>เครือข่ายโรงเรียน</h3>
     </div>
+
+    <div style="margin:20px 0 0 10px">
+        <h4>ตารางเครือข่ายโรงเรียน</h4>
+    </div>    
     
     <table class="table table-striped">
         <thead>
@@ -32,5 +34,5 @@
         </tbody>
     </table>
 </div>
-<!-- /.row -->
+
 
