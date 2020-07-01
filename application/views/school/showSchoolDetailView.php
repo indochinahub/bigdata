@@ -125,7 +125,7 @@
     </table>
     <div><strong>วันที่ปรับปรุงข้อมูล</strong> : <?php echo  $school->school_schoolupdatetime;?></div>
 
-    
+   
     <div style="margin:20px 0 0 10px;color:#28a745">
         <h4>[ จำนวนบุคลากร ] </h4>
     </div>    
