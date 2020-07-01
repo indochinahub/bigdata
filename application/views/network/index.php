@@ -3,8 +3,8 @@
         <h3>เครือข่ายโรงเรียน</h3>
     </div>
 
-    <div style="margin:20px 0 0 10px">
-        <h4>ตารางเครือข่ายโรงเรียน</h4>
+    <div style="margin:20px 0 0 10px;color:#28a745">
+        <h4>[ เครือข่ายโรงเรียน ] </h4>
     </div>    
     
     <table class="table table-striped">

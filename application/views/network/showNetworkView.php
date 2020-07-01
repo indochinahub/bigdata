@@ -3,8 +3,8 @@
         <h3>เครือข่าย <?php echo $network->network_name;?></h3>
     </div>
 
-    <div style="margin:20px 0 0 10px">
-        <h4>รายละเอียด</h4>
+    <div style="margin:20px 0 0 10px;color:#28a745">
+        <h4>[ รายละเอียด ] </h4>
     </div>   
     <table class="table table-striped">
         <thead>
@@ -30,8 +30,8 @@
         </tbody>
     </table>    
     
-    <div style="margin:20px 0 0 10px">
-        <h4>รายชื่อโรงเรียน</h4>
+    <div style="margin:20px 0 0 10px;color:#28a745">
+        <h4>[ รายชื่อโรงเรียน]</h4>
     </div>   
     <table class="table table-striped">
         <thead>
