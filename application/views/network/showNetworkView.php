@@ -43,7 +43,7 @@
         <tbody>
             <?php foreach($schools as $school){ ?>        
                 <tr>
-                    <th scope="row"><a href="<?php echo base_url([ "school", "showSchoolDetailView", $school->school_id]);?>"><?php echo $school->school_thainame;?></a></th>
+                    <th scope="row"><a href="<?php echo site_url([ "school", "showSchoolDetailView", $school->school_id]);?>"><?php echo $school->school_thainame;?></a></th>
                     <td>ต. <?php echo $school->school_subdistrict;?><br> อ. <?php echo $school->school_district;?></td>
                 </tr>           
             <?php } ?>

@@ -25,29 +25,29 @@
                                   </thead>
                                   <tbody>
                                           <tr role="row" class="odd">
-                                              <td> <a href="<?php echo base_url(["academic_level", "showAcademic", "teacher"]);?>">  ไม่มีวิทยฐานะ  </a></td>
+                                              <td> <a href="<?php echo site_url(["academic_level", "showAcademic", "teacher"]);?>">  ไม่มีวิทยฐานะ  </a></td>
                                               <td><?php echo $teacher_male;?></td>
                                               <td><?php echo $teacher_female;?></td>
                                           </tr>
                                           <tr role="row" class="odd">
-                                              <td> <a href="<?php echo base_url(["academic_level", "showAcademic", "professionalteacher"]);?>">  ชำนาญการ </a></td>
+                                              <td> <a href="<?php echo site_url(["academic_level", "showAcademic", "professionalteacher"]);?>">  ชำนาญการ </a></td>
                                               <td><?php echo $professionalteacher_male;?></td>
                                               <td><?php echo $professionalteacher_female;?></td>
                                           </tr>
                                           <tr role="row" class="odd">
-                                              <td><a href="<?php echo base_url(["academic_level", "showAcademic", "seniorprefessionalteacher"]);?>"> ชำนาญการพิเศษ</a></td>
+                                              <td><a href="<?php echo site_url(["academic_level", "showAcademic", "seniorprefessionalteacher"]);?>"> ชำนาญการพิเศษ</a></td>
                                               <td><?php echo $seniorprefessionalteacher_male;?></td>
                                               <td><?php echo $seniorprefessionalteacher_female;?></td>
                                           </tr>                                          
                                           <tr role="row" class="odd">
-                                              <td><a href="<?php echo base_url(["academic_level", "showAcademic", "expertteacher"]);?>">เชี่ยวชาญ</a></td>
+                                              <td><a href="<?php echo site_url(["academic_level", "showAcademic", "expertteacher"]);?>">เชี่ยวชาญ</a></td>
                                               <td><?php echo $expertteacher_male;?></td>
                                               <td><?php echo $expertteacher_female;?></td>
                                           </tr>  
                                           
                                           
                                           <tr role="row" class="odd">
-                                              <td><a href="<?php echo base_url(["academic_level", "showAcademic", "advisoryteacher"]);?>">เชี่ยวชาญพิเศษ</a></td>
+                                              <td><a href="<?php echo site_url(["academic_level", "showAcademic", "advisoryteacher"]);?>">เชี่ยวชาญพิเศษ</a></td>
                                               <td><?php echo $advisoryteacher_underbachelor_male;?></td>
                                               <td><?php echo $advisoryteacher_underbachelor_female;?></td>
                                           </tr>                                            
@@ -71,27 +71,27 @@
                                   </thead>
                                   <tbody>
                                           <tr role="row" class="odd">
-                                              <td><a href="<?php echo base_url(["academic_level", "showEducationLevel", "underbachelor"]);?>"> ต่ำกว่าปริญญาตรี </a></td>
+                                              <td><a href="<?php echo site_url(["academic_level", "showEducationLevel", "underbachelor"]);?>"> ต่ำกว่าปริญญาตรี </a></td>
                                               <td><?php echo $underbachelor_male;?></td>
                                               <td><?php echo $underbachelor_female;?></td>
                                           </tr>
                                           <tr role="row" class="odd">
-                                              <td><a href="<?php echo base_url(["academic_level", "showEducationLevel", "bachelor"]);?>">ปริญญาตรี</a></td>
+                                              <td><a href="<?php echo site_url(["academic_level", "showEducationLevel", "bachelor"]);?>">ปริญญาตรี</a></td>
                                               <td><?php echo $bachelor_male;?></td>
                                               <td><?php echo $bachelor_female;?></td>
                                           </tr>
                                           <tr role="row" class="odd">
-                                              <td><a href="<?php echo base_url(["academic_level", "showEducationLevel", "diploma"]);?>">ประกาศนียบัตร</a></td>
+                                              <td><a href="<?php echo site_url(["academic_level", "showEducationLevel", "diploma"]);?>">ประกาศนียบัตร</a></td>
                                               <td><?php echo $diploma_male;?></td>
                                               <td><?php echo $diploma_female;?></td>
                                           </tr>    
                                           <tr role="row" class="odd">
-                                              <td><a href="<?php echo base_url(["academic_level", "showEducationLevel", "master"]);?>">ปริญญาโท</a></td>
+                                              <td><a href="<?php echo site_url(["academic_level", "showEducationLevel", "master"]);?>">ปริญญาโท</a></td>
                                               <td><?php echo $master_male;?></td>
                                               <td><?php echo $master_female;?></td>
                                           </tr>    
                                           <tr role="row" class="odd">
-                                              <td> <a href="<?php echo base_url(["academic_level", "showEducationLevel", "doctor"]);?>"> ปริญญาเอก </a></td>
+                                              <td> <a href="<?php echo site_url(["academic_level", "showEducationLevel", "doctor"]);?>"> ปริญญาเอก </a></td>
                                               <td><?php echo $doctor_male;?></td>
                                               <td><?php echo $doctor_female;?></td>
                                           </tr> 

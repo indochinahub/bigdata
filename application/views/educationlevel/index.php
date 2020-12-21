@@ -76,7 +76,7 @@
                     <th scope="row"><?php echo $level->educationlevel_name;?></th>
                     <td>
                         <?php  foreach($level->schools as $school) { ?>
-                            <a href="<?php echo base_url(["school","showSchoolDetailView", $school->school_id]);?>"><?php echo $school->school_thainame;?></a><br>
+                            <a href="<?php echo site_url(["school","showSchoolDetailView", $school->school_id]);?>"><?php echo $school->school_thainame;?></a><br>
                         <?php  }  ?>
                     </td>
                 </tr>

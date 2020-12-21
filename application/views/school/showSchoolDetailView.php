@@ -117,7 +117,7 @@
             </tr>
             
             <tr>
-                <th scope="row"><a href="<?php echo base_url(["network", "index"]);?>">เครือข่าย</a></th>
+                <th scope="row"><a href="<?php echo site_url(["network", "index"]);?>">เครือข่าย</a></th>
                 <td><?php echo $school->network_name;?></td>
             </tr>            
             

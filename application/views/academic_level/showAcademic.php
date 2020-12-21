@@ -23,7 +23,7 @@
                                   <tbody>
                                         <?php foreach( $schools as $school ){ ?>
                                             <tr role="row" class="odd">
-                                              <td><a href="<?php echo base_url(["school", "showSchoolDetailView", $school->school_id]);?>"><?php echo $school->school_thainame;?></a></td>
+                                              <td><a href="<?php echo site_url(["school", "showSchoolDetailView", $school->school_id]);?>"><?php echo $school->school_thainame;?></a></td>
                                                
                                               
                                               <td><?php echo $school->male;?></td>

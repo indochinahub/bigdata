@@ -1,7 +1,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="<?php echo base_url();?>" class="brand-link">
+    <a href="<?php echo site_url();?>" class="brand-link">
       <img src="<?php echo base_url();?>assets/adminlte302/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">สพท.สร.1 Bigdata</span>
@@ -28,42 +28,42 @@
             <ul class="nav nav-treeview">
 
             <li class="nav-item">
-                <a href="<?php echo base_url();?>" class="nav-link">
+                <a href="<?php echo site_url();?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>หน้าแรก</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="<?php echo base_url([ "network", "index"]);?>" class="nav-link">
+                <a href="<?php echo site_url([ "network", "index"]);?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>เครือข่าย</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="<?php echo base_url([ "school", "index"]);?>" class="nav-link">
+                <a href="<?php echo site_url([ "school", "index"]);?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>สถานศึกษา</p>
                 </a>
               </li>
               
               <li class="nav-item">
-                <a href="<?php echo base_url([ "educationlevel", "index"]);?>" class="nav-link">
+                <a href="<?php echo site_url([ "educationlevel", "index"]);?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>ระดับการศึกษา</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a href="<?php echo base_url(["personel", "index"]);?>" class="nav-link">
+                <a href="<?php echo site_url(["personel", "index"]);?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i> 
                   <p>บุคลากร</p>
                 </a>
               </li>
               
               <li class="nav-item">
-                <a href="<?php echo base_url(["academic_level", "index"]);?>" class="nav-link">
+                <a href="<?php echo site_url(["academic_level", "index"]);?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i> 
                   <p>วิทยฐานะ</p>
                 </a>

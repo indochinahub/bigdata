@@ -19,7 +19,7 @@
         
         <?php foreach( $networks as $network ){ ?>
             <tr>
-                <th scope="row"><a href="<?php echo base_url(["network", "showNetworkView", $network->network_id]);?>"><?php echo $network->network_name;?></a></th>
+                <th scope="row"><a href="<?php echo site_url(["network", "showNetworkView", $network->network_id]);?>"><?php echo $network->network_name;?></a></th>
                 <td><?php echo $network->num_school;?></td>
                 <td><?php echo $network->num_student;?></td>
             </tr>

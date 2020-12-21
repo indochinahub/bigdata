@@ -15,7 +15,7 @@
         <tbody>
             <?php foreach( $schools as $school ){ ?>        
                 <tr>
-                    <th scope="row"><a href="<?php echo base_url(["school", "showSchoolDetailView", "1032650001"]);?>"><?php echo $school->school_thainame;?></a></th>
+                    <th scope="row"><a href="<?php echo site_url(["school", "showSchoolDetailView", "1032650001"]);?>"><?php echo $school->school_thainame;?></a></th>
                     <td><?php echo $school->school_numofstudent;?></td>
                     <td><?php echo $school->num_personel;?></td>
                 </tr>
